@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1021384205,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverHooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Customer can not log in if USERNAME is incorrect",
+        "description": "",
+        "id": "customer-should-be-able-to-login;customer-can-not-log-in-if-username-is-incorrect",
+        "after": [
+          {
+            "result": {
+              "duration": 61378,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DriverHooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5875768739,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user launches github login page",
+            "match": {
+              "location": "UserProfileSteps.userIsOnHomePageAs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6922043502,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user tries to login as \"a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginPageSteps.theUserTriesToLoginAs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31077741,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should see access restricted page",
+            "match": {
+              "location": "LoginPageSteps.theUserShouldSeeAccessRestrictedPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          },
+          {
+            "line": 3,
+            "name": "@desktop"
+          }
+        ]
+      }
+    ],
+    "name": "Customer should be able to login",
+    "description": "",
+    "id": "customer-should-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "com/project/cucumber/admin/Login.feature"
+  }
+]

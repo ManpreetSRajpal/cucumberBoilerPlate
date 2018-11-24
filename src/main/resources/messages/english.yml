@@ -1,0 +1,5 @@
+# Login Page
+INVALID_USERNAME_PASSWORD_ERROR_TEXT: "Your username or password is incorrect. Please try again. [I-1007]"
+
+#Home Page
+WELCOME_TITLE: "Welcome Title"

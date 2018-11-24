@@ -1,0 +1,6 @@
+- name: dev
+  loginUrl: https://github.com/login
+  pageTimeOut: 10
+- name: qa
+  loginUrl: https://facebook.com/
+  pageTimeOut: 30
